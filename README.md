@@ -5,6 +5,11 @@ In the aviation industry, engine failure is not an option. Traditional maintenan
 
 This project implements a Predictive Maintenance (PdM) solution using Machine Learning to predict the Remaining Useful Life (RUL) of NASA turbofan engines. By analyzing sensor data, we can forecast exactly when an engine will fail, enabling "Zero Downtime" operations.
 
+## 📊 Dataset
+
+ -  NASA CMAPSS Dataset
+ -  Download from Kaggle:[NASA Turbofan Jet Engine Data Set](https://www.kaggle.com/datasets/behrad3d/nasa-cmaps)
+
 ## 🛠️ Methodology & Approach
 
 ### 1. Data Cleaning & Preprocessing
