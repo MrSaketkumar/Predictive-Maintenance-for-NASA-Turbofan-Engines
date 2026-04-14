@@ -9,21 +9,21 @@ This project implements a Predictive Maintenance (PdM) solution using Machine Le
 
 ### 1. Data Cleaning & Preprocessing
 
-  * Dead Sensor Removal: Identified and removed 7 sensors (e.g., T2, P2, epr, farB) that showed zero variance/constant values to reduce noise.
-  * Data Integrity: Validated having no missing values (Nulls) and checked data types.
+  * **Dead Sensor Removal:** Identified and removed 7 sensors (e.g., T2, P2, epr, farB) that showed zero variance/constant values to reduce noise.
+  * **Data Integrity:** Validated having no missing values (Nulls) and checked data types.
     
 ### 2. Feature Engineering
 
-   * Piecewise Linear Degradation: Applied RUL Clipping (Threshold = 125 cycles). This assumes the engine operates normally for a period before degradation starts, preventing the model from learning noise during the healthy phase.
+   * **Piecewise Linear Degradation:** Applied RUL Clipping (Threshold = 125 cycles). This assumes the engine operates normally for a period before degradation starts, preventing the model from learning noise during the healthy phase.
     
 ### 3. Model Selection
 
   Benchmarked multiple regression algorithms to find the best performance:
 
-   * #### Linear Regression (Baseline)
-   * #### Support Vector Regressor (SVR)
-   * #### Random Forest Regressor
-   * #### XGBoost Regressor (Best Performer) 🏆
+   * Linear Regression (Baseline)
+   * Support Vector Regressor (SVR)
+   * Random Forest Regressor
+   * XGBoost Regressor (Best Performer) 🏆
 
 ## 🚀 Results
 
